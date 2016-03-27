@@ -29,6 +29,7 @@ namespace Umbraco.RestApi.Models
         [Display(Name = "templateId")]
         public int TemplateId { get; set; }
 
-       
+        [Display(Name = "templateName")]
+        public string TemplateName { get; set; }
     }
 }
